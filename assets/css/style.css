@@ -21,22 +21,12 @@ body {
 
 .container {
   max-width: 640px;
-  margin: 50px auto;
+  margin: 100px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   height: 50%;
 }
-
-.container-tabela {
-  display: flex;
-  line-height: 10px;
-}
-
-.div__1 {
-  margin-right: 20%;
-}
-
 
 form input, form label, form button {
   display: block;
@@ -69,7 +59,7 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
-.resultado {
+.valido {
   background-color: aqua;
 }
 
