@@ -12,31 +12,8 @@
 <body>
 
   <section class="container">
-    <h1>Tabela IMC</h1>
-    <div class="container-tabela">
-      
-      <div class="div__1">
-        <h3 class="titulo">IMC</h3>
-        <p>Menos que 18.5</p>
-        <p>Entre18.5 e 24.9</p>
-        <p>Entre 25 e 29.9</p>
-        <p>Entre 30 e 34.9</p>
-        <p>Entre 35 e 39.9</p>
-        <p>Mais do que 40</p>
-      </div>
 
-      <div class="div__2">
-        <h3 class="titulo">Resultado</h3>
-        <p>Abaixo do peso</p>
-        <p>Peso normal</p>
-        <p>Sobrepeso</p>
-        <p>Obesidade grau 1</p>
-        <p>Obesidade grau 2</p>
-        <p>Obesidade grau 3</p>
-      </div>
-    </div>
-    
-    <h2>Calcule seu IMC</h2>
+    <h1>Calcule seu IMC</h1>
     <form action="/" id="formulario" class="form" method="GET">
       <label for="peso">Peso</label>
       <input type="text" id="peso"class="peso" name="peso">
@@ -47,7 +24,7 @@
       <button type="submit">Enviar</button>
     </form>
 
-    <div id="resultado"></div>
+    <div id="resultado" class="resultado"></div>
   </section>
 
   <script src="assets/js/main.js"></script>

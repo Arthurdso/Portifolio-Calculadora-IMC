@@ -16,6 +16,7 @@ body {
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
+  
 }
 
 .container {
@@ -24,6 +25,7 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  height: 50%;
 }
 
 .container-tabela {
@@ -65,4 +67,12 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.resultado {
+  background-color: aqua;
+}
+
+.invalido {
+  background-color:red;
 }
