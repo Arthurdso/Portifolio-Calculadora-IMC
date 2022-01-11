@@ -17,7 +17,7 @@ function recebeEventosForm (e) {
     const imc = IMC(peso, altura);
     const nivelImc = NivelIMC(imc);
 
-    const msg = `IMC:${imc.toFixed(1)} - ${nivelImc}.`
+    const msg = `IMC: ${imc.toFixed(1)} - ${nivelImc}.`
     
 
     escreverMensagem(msg, true);

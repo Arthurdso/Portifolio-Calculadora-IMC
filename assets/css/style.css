@@ -19,14 +19,64 @@ body {
   
 }
 
+.titulo-2 { 
+  text-align: left;
+  margin-top: -60px
+}
+
+
+.esconde {
+  display:none;
+} 
+
 .container {
   max-width: 640px;
-  margin: 100px auto;
+  margin: 50px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   height: 50%;
 }
+
+
+.mostra {
+  max-width: 640px;
+  margin: -5px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 50%;
+} 
+
+.container-tabela {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-icone {
+  display: inline;
+  border: none;
+  background-color: #fff;
+  transform: rotate(90deg);
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.ativo {
+  transform: rotate(270deg);
+}
+
+.img-icone:hover {
+  cursor: pointer;
+  color: blue;
+}
+  
+
+.div__1 {
+  margin-right: 135px;
+  margin-left: 15px;
+}
+
 
 form input, form label, form button {
   display: block;
@@ -66,3 +116,4 @@ form button:hover {
 .invalido {
   background-color:red;
 }
+
