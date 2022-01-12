@@ -23,8 +23,8 @@ function recebeEventosForm (e) {
     escreverMensagem(msg, true);
 
     if (!peso && !altura) return escreverMensagem("Peso e Altura invalidos", false) ;
-    if(!peso || peso > 10000 || peso < 5) return escreverMensagem("Peso invalido", false);
-    if (!altura || altura > 3.00 || altura < 0.90) return escreverMensagem("Altura invalida",false);
+    if(!peso || peso >= 400 || peso < 5) return escreverMensagem("Peso invalido", false);
+    if (!altura || altura >= 3.00 || altura < 0.90) return escreverMensagem("Altura invalida",false);
     
 
 }
